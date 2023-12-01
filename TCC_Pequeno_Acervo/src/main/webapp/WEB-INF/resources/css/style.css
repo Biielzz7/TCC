@@ -1,0 +1,290 @@
+body{
+	margin: 0;
+  	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	}
+
+header {
+	background: #CCCCCC;
+	padding: 20px 0;
+}
+
+.container {
+	position: relative;
+
+}
+
+.botoes {
+	position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.main {
+	padding: 30px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 2em;
+    margin: 0  0 1em;
+    clear: left;
+}
+
+.botao1 {
+	font-size: 10px;
+}
+.botao2 {
+	font-size: 10px;
+}
+.principal {
+	padding: 3em 0;
+	background: linear-gradient(#CCCCCC, #888888);
+	margin: 0 auto;
+}
+
+.principal p {
+	margin: 0 0 1em;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.caixa img{
+	width: 300px;
+}
+
+nav {
+	position: absolute;
+	top: 150px;
+	right: 0;
+	
+}
+
+nav li {
+	display: inline;
+	margin:  0 0 0 20px;
+}
+
+nav a {
+ 	text-transform: uppercase;
+ 	color: #000000;
+ 	font-weight: bold;
+ 	font-size: 22px;
+ 	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+.conteudo {
+	width: 640px;
+	margin: 0 auto;
+}
+
+.paragrafo {
+    line-height: 150%;
+    margin-bottom: 32px;
+}
+
+#beneficios {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 80px;
+}
+
+.duvida {
+    position: relative;
+}
+
+.duvida h1 {
+    border: 2px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 24px;
+}
+
+.duvida img {
+    position: absolute;
+    top: 32px;
+    right: 24px;
+}
+
+.duvida .paragrafo {
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-radius: 0 0 8px 8px;
+    margin-top: -8px;
+    padding: 0 24px;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: .2s ;
+}
+
+.duvida.ativa .paragrafo {
+    height: fit-content;
+    opacity: 1;
+    padding: 24px;
+}
+
+.objetivo {
+	width: 960px;
+	margin: 0 auto;
+	color: white;
+	text-align: justify;
+	font-size: 18px;
+}
+
+.itens {
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px;
+  display: inline-block;
+ 
+}
+
+.itens:before {
+    content: " - "
+}
+.item-details {
+	background-color: #c7c5c5;
+	padding: 10px;
+	border: 1px solid #cccccc;
+	margin: 10px;
+	text-align: center;
+}
+
+.beneficios {
+	padding: 3em 0;
+	background: #888888;
+}
+.mapa {
+	padding: 3em 0;
+	background: #888888;
+}
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+
+form{
+	margin: 40px 0;
+}
+
+	
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+	
+.input-padrao{
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+.checkbox {
+	margin: 20px 0;
+}
+	
+.enviar{
+	width: 40%;
+	padding: 15px 0;
+	background: darkgray;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+	
+.enviar:hover {
+	background: black;
+	transform: scale(1.2);
+}
+table {
+	margin: 20px 0 40px;
+}
+	
+thead {
+	background: #888888;
+	color: white;
+	font-weight: bold;
+}
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
+.livros {
+	color: white;
+ 	width: 940px;
+ 	margin:  0 auto;
+ 	padding: 50px 0;
+}
+.livros li {
+ 	display: inline-block;
+ 	text-align: center;
+ 	width: 30%;
+ 	vertical-align: top;
+ 	margin: 0 1.5%;
+ 	padding: 30px 20px;
+ 	box-sizing: border-box;
+ 	border: 2px solid #000000;
+ 	border-radius: 20px;
+}
+
+.livros li:hover {
+	border-color: #C78C19;
+}
+
+.livros li:active {
+	border-color: #088C19;
+}
+
+.livros li:hover h2 {
+	font-size: 34px;
+}
+
+.livros h2 {
+	font-size: 30px;
+ 	font-weight: bold;
+}
+.descrição {
+	font-size: 18px;
+	color: white;
+ }
+ .tabela {
+	 color: black;	
+	 font-family: sans-serif;
+	 font-size: 15px;
+ }
+
+footer {
+	background-color: #888888;
+	text-align: center;
+
+	padding: 40px 0 ;
+}
+
+
+.Copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0;
+}
